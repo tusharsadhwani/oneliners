@@ -1,0 +1,3 @@
+# oneliners
+
+Random Python oneliners.

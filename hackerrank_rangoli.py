@@ -1,0 +1,1 @@
+n = int(input()); print("\n".join("-".join("abcdefghijklmnopqrstuvwxyz"[i + j] if i + j < n else "-" for i in list(reversed(range(n))) + list(range(1, n))) for j in list(reversed(range(n))) + list(range(1, n))))
