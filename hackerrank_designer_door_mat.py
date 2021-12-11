@@ -1,0 +1,1 @@
+n, m = (int(num) for num in input().split()); print("\n".join("---" * (n // 2 - i) + ".|." * (2 * i + 1) + "---" * (n // 2 - i) for i in range(n // 2)) + f"\n{'WELCOME':-^{m}}\n" + "\n".join("---" * (n // 2 - i) + ".|." * (2 * i + 1) + "---" * (n // 2 - i) for i in reversed(range(n // 2))))
